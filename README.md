@@ -1,17 +1,17 @@
 # mpvue-multi-picker
 
-> mpvue-multi-picker
-
 [![GitHub issues](https://img.shields.io/github/issues/baolin1389/mpvue-multi-picker.svg)](https://github.com/baolin1389/mpvue-multi-picker/issues)
 [![GitHub forks](https://img.shields.io/github/forks/baolin1389/mpvue-multi-picker.svg)](https://github.com/baolin1389/mpvue-multi-picker/network)
 [![GitHub stars](https://img.shields.io/github/stars/baolin1389/mpvue-multi-picker.svg)](https://github.com/baolin1389/mpvue-multi-picker/stargazers)
 
 
+> 用mpvue实现的小程序多级联动picker，比微信原生picker更灵活，更方便
+
 ## Screenshots
 
 ![](https://raw.githubusercontent.com/baolin1389/mpvue-multi-picker/master/pictures/picker.gif)
 
-## install
+## Install
 
 ```bash
 npm install mpvue-multi-picker --save
@@ -53,16 +53,13 @@ export default {
       pickerValue: []
     }
   },
-
   components: {
     multiPicker
   },
-
   methods: {
     showPickerView () {
       this.$refs.picker.show()
     },
-
     onConfirm (value) {
       console.log('pickerValue:' + value)
     }
@@ -71,7 +68,7 @@ export default {
 </script>
 ```
 
-## props
+## Props
 
 | 参数        | 说明                | 类型     | 默认值  |
 | ---------  | --------------------| -------  | ------ |
