@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "mpvue-multi-picker",
   "author": "icecool",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
@@ -73,5 +73,19 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baolin1389/mpvue-multi-picker.git"
+  },
+  "keywords": [
+    "mpvue",
+    "picker"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baolin1389/mpvue-multi-picker/issues"
+  },
+  "homepage": "https://github.com/baolin1389/mpvue-multi-picker#readme"
 }

@@ -129,12 +129,10 @@ export default {
   methods: {
 
     showPickerView () {
-      // this.isShowPicker = true
       this.$refs.picker.show()
     },
 
     showPickerView2 () {
-      // this.isShowPicker = true
       this.$refs.picker2.show()
     },
 
